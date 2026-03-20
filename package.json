@@ -1,0 +1,30 @@
+{
+  "name": "logfetch",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "axios": "^1.13.6",
+    "lucide-react": "^0.577.0",
+    "framer-motion": "^12.36.0",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.0",
+    "vite": "^8.0.0",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
+    "@tailwindcss/postcss": "^4.0.0",
+    "eslint": "^9.39.4",
+    "globals": "^17.4.0"
+  }
+}
